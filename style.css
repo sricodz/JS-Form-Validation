@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.container{
+    margin-top: 2rem;
+    width: 850px;
+    display: flex;
+}
+img{
+    height: 780px;
+    width: 400px;
+}
+.header{
+    background: rgba(109, 107, 107,0.2);
+    width: 450px;
+}
+.head{
+    height: 40px;
+    background: rgb(48, 49, 49);
+}
+.title{
+    color: whitesmoke;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+#form{
+    padding: 10px;
+}
+.block{
+    margin-top: 10px;
+}
+.block input:not(.radio){
+    display: block;
+}
+.block .label:not(#tandc){
+    color: rgb(167, 16, 167);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.error{
+    margin-left: 10px;
+    color: red;
+    font-size: 0.8rem;
+}
+.width{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    color: blue;
+    outline: none;
+    border: 2px solid rgb(182, 175, 175);
+}
+.radio{
+    margin-left: 10px;
+}
+.gender{
+    color: rgb(109, 14, 187);
+    margin-left: 10px;
+}
+.check{
+    display: flex;
+    margin-left: 10px;
+    color: rgb(109, 14, 187);
+}
+.check span{
+    margin-right: 10px;
+}
+.hobbie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.agree{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 1rem;
+}
+#tandc{
+    margin-left: 10px;
+    color: rgb(66, 150, 153);
+}
+.btn{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(84, 86, 179);
+    color: whitesmoke;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(86, 86, 177);
+    transition: all .3s linear;
+}
+.btn:hover{
+    background: green;
+}
